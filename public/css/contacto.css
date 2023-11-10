@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.image-container {
+  position: relative;
+  width: 95%;
+  height: 65vh;
+  overflow: hidden;
+  background: linear-gradient(45deg, #7676d6 0%, rgba(0, 0, 255, 0.2) 100%), url("https://www.enterarse.com/wp-content/uploads/2023/05/20200630_0001-antenas-de-telefonia-movil-un-riesgo-para-la-salud.png") center/cover no-repeat;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.map-section {
+  width: 600px; /* Ajusta el ancho según tus preferencias */
+  height: 600px; /* Mantiene la misma altura para que sea un cuadrado */
+}
+
+/* Ajusta según tus preferencias para centrar el cuadro del mapa */
+.map-section {
+  margin: 10 auto;
+}
